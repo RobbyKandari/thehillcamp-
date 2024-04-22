@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+} 
+
+
+.nav {
+    width: 100vw;
+    height: 8vh;
+ display: flex;
+ justify-content: center;
+ gap: 15px;
+ box-shadow: 1px 2px ghostwhite;
+ background-color: b;
+    
+}
+.nav a{
+    text-decoration: none;
+    gap: 10px;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.734);
+    font-weight: 700;
+    padding: 2vw;
+
+}
+.logo{
+    display: flex;
+    padding: 3.5vw;
+    align-items: end;
+gap: 10px;
+}
+/* nav done */
+.center{
+    height: 60vh;
+    width: 100vw;
+    top: -60px;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-color: #BED7DC;
+    box-shadow: 2px 2px rgba(181, 181, 186, 0.605);
+}
+.center h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.893);
+    text-align: end;
+    padding-top: 10vh;
+    padding-right: 10vh;
+}
+.center span{
+    color: teal;
+}
+.center h2{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.897);
+}
+.center p{
+    padding: 1vw 1vw;
+    font-weight: 800;
+    color: rgb(6, 4, 4);
+}
+.contant{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    /* position: absolute; */
+    box-shadow: 2px 2px rgba(16, 16, 16, 0.605);
+}
+.tent1{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60vh;
+    width: 45%;
+    border: 6px solid rgba(246, 241, 241, 0.952);
+    /* background-color: aqua; */
+}
+.tent2{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60vh;
+    width: 45%;
+    border: 6px solid rgba(246, 241, 241, 0.952);
+    /* background-color: aqua; */
+    }
+.tent1 img{
+    margin-left: 5vw;
+    margin-top: 2vh;
+    height: 200px;
+    width: 70%;
+}
+.tent2 img{
+    margin-left: 5vw;
+    margin-top: 2vh;
+    height: 200px;
+    width: 70%;
+}
+.tent1 h3{
+    text-align: center;
+}
+.tent1 p{
+    font-size: medium;
+    font-weight: 600;
+}
+.tent2 h3{
+    text-align: center;
+}
+.tent2 p{
+    font-size: medium;
+    font-weight: 600;
+}
+.tent1 button {
+    text-align: center;
+    font-weight:700;
+    justify-content: center;
+    margin-left: 18vw;
+    margin-top: 1.5vh;
+    background-color: rgb(85, 205, 38);
+
+}
+.tent2 button {
+    text-align: center;
+    font-weight:700;
+    justify-content: center;
+    margin-left: 18vw;
+    margin-top: 2.5vh;
+    background-color: rgb(85, 205, 38);
+
+}
+.why{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(235, 227, 227);
+    box-shadow: 2px 2px rgba(16, 16, 16, 0.605);
+}
+.why h2{
+    margin-top: 4vh;
+    text-align: center;
+    font-size: xx-large;
+}
+.why p{
+    margin-top: 10vh;
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.form h3{
+    text-align: center;
+    margin-top: 1vh;
+    text-shadow: 0.1px 0.7px;
+    font-weight: 700;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div fr{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .footer{
+    height: 40vh;
+    width: 100%;
+    background-color: whitesmoke;  
+    display: flex;
+    background-color: #4CAF50;
+
+}
+.info{
+    height: 40vh;
+    width: 30%;
+}
+.vh {
+    height: 40vh;
+    /* background-color: #4CAF50; */
+    width: 30%;
+}
+.adr {
+    height: 40vh;
+    /* background-color: aqua; */
+    width: 40%;
+}
+  .footer h2{
+    text-decoration: underline;
+    margin-left: 10vw;
+
+  }
+  .vh ol {
+    text-decoration: none;
+    margin-top: 2vh;
+   
+  }
+  .vh a{
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(11, 10, 10);
+    font-size: larger;
+    margin-left: 10vw;
+    margin-top: 2vh;
+  }
